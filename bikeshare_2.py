@@ -247,10 +247,16 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        display_data(df)
+        
         time_stats(df)
+        time.sleep(3)
         station_stats(df)
+        time.sleep(3)
         trip_duration_stats(df)
+        time.sleep(3)
         user_stats(df)
+        time.sleep(3)
         display_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
