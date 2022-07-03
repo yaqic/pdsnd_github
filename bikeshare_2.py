@@ -1,3 +1,11 @@
+'''
+Description:
+This file contains codes to analyze data from a bike sharing companies. 
+
+It provides an interactive interface that allows users to choose whether or not to filter the data by month and/or day.
+Based on the user's selection, it then provides some summary statistics of the data.
+'''
+
 import time
 import pandas as pd
 import numpy as np
